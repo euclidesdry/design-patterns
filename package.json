@@ -1,0 +1,19 @@
+{
+  "name": "design-patters",
+  "version": "1.0.0",
+  "description": "Studying more about Design Patter using TypeScript as the main programming language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "design",
+    "patterns",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
