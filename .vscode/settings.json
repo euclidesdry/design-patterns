@@ -1,13 +1,15 @@
 {
+  "code-runner.clearPreviousOutput": true,
   "code-runner.saveFileBeforeRun": true,
   "code-runner.showExecutionMessage": false,
   "code-runner.executorMap": {
-    "typescript": "cls && npx ts-node --files --transpile-only"
+    "typescript": "cls && npx tsx"
   },
   "editor.rulers": [80, 120],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.fixAll": "explicit"
   },
-  "conventionalCommits.scopes": ["class"]
+  "conventionalCommits.scopes": ["class"],
+  "cSpell.words": ["creational"]
 }

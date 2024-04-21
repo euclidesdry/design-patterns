@@ -2,9 +2,15 @@
   "name": "design-patters",
   "version": "1.0.0",
   "description": "Studying more about Design Patter using TypeScript as the main programming language",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx ./src/index.ts",
+    "build": "npx tsc",
+    "test": "glob -c \"node --import tsx --no-warnings --test\"",
+    "test:watch": "glob -c \"node --import tsx --no-warnings --test --watch\"",
+    "test:all": "glob -c \"node --import tsx --no-warnings --test\" \"./src/**/*.{test,spec}.{js,ts}\"",
+    "test:coverage": "glob -c \"node --import tsx --no-warnings --test --experimental-test-coverage\" \"./src/**/*.{test,spec}.{js,ts}\""
   },
   "keywords": [
     "design",
@@ -14,12 +20,17 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/node": "^20.12.7",
     "@typescript-eslint/eslint-plugin": "^7.7.0",
     "@typescript-eslint/parser": "^7.7.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
+    "glob": "^10.3.12",
     "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.7.2",
     "typescript": "^5.4.5"
   }
 }
