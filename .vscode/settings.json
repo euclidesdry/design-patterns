@@ -10,6 +10,6 @@
     "source.fixAll.eslint": "explicit",
     "source.fixAll": "explicit"
   },
-  "conventionalCommits.scopes": ["class"],
+  "conventionalCommits.scopes": ["class", "ci"],
   "cSpell.words": ["creational"]
 }
