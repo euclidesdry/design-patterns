@@ -5,7 +5,7 @@
   "code-runner.executorMap": {
     "typescript": "cls && npx tsx"
   },
-  "editor.rulers": [80, 120],
+  "editor.rulers": [100, 120],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.fixAll": "explicit"

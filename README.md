@@ -41,7 +41,7 @@ DESIGN-PATTERNS/
 
 - [ ] [Factory Method](https://refactoring.guru/design-patterns/factory-method)
 - [ ] [Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory)
-- [ ] [Builder](https://refactoring.guru/design-patterns/builder)
+- [x] [Builder](https://refactoring.guru/design-patterns/builder)
 - [ ] [Prototype](https://refactoring.guru/design-patterns/prototype)
 - [x] [Singleton](https://refactoring.guru/design-patterns/singleton)
 
